@@ -6,6 +6,7 @@ def calcular_estadisticas_intervalos(numeros):
     rango = round(max(numeros) - min(numeros), 2)
     #Calcular el numero de clases
     clases = 1 + (3.3*math.log10(len(numeros)))
+    print(clases)
     #Calcular el ancho de las clases
     ancho = round(rango / math.floor(clases), 2)
     #Creacion de los arreglos vacios

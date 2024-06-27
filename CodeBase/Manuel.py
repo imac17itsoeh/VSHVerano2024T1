@@ -16,7 +16,7 @@ def calcular_estadisticas_intervalos(numeros):
   else:
     # Redondear hacia arriba
     num_clases= parte_entera + 1
-
+    print(num_clases)
   # Cálculo del ancho de clase
   ancho_clase = rango / num_clases
 
